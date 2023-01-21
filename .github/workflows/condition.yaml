@@ -1,8 +1,8 @@
 name: example-workflow
-on: [push]
+on: workflow_dispatch
 jobs:
   production-deploy:
-    if: github.repository == 'outputs-test'
+    if: github.repository == 'raihaniqbal1999/outputs-test'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
