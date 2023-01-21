@@ -1,7 +1,7 @@
 name: Output Workflow
 on: workflow_dispatch
 jobs:
-  job1:
+   job1:
     runs-on: ubuntu-latest
     # Map a step output to a job output
     outputs:
